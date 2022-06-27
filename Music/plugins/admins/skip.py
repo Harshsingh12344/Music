@@ -11,8 +11,8 @@ from Music.utils.database import get_loop
 from Music.utils.decorators import AdminRightsCheck
 from Music.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from Music.utils.stream.autoclear import auto_clean
+from Music.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
